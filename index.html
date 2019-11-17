@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="dist/css/style.css">
+    <title>Tic-tac-toe</title>
+</head>
+<body class="sans-serif">
+
+    <!-- Titles -->
+    <div class="w-100 tc pa3 ph4-ns bg-right">
+        <h1 class="f5 ttu">Tic-tac-toe</h1>
+        <h2 class="f1 f-headline-ns 1h-solid ttu tracked-mega mw6 center">Le jeu</h2>
+    </div>
+
+    <!-- Timeline -->
+    <div class="timeline relative">
+
+        <!-- Origine -->
+        <section class="mw8 pv5 center cf">
+            <h2 id="origine" class="f2 f-subheadline-ns lh-title mb0 ttu tc tracked-mega bg-white">L'origine</h2>
+            <div class="fl w-100 w-50-ns pr5-ns mtn6-ns">
+                <img src="dist/images/tic-tac-toe.jpg" alt="tictactoe_image" class="fl border-box knocked-out">
+            </div>
+            <div class="fl w-100 w-40-ns ph4 measure lh-copy bg-white">
+                <p>Le tic-tac-toe, aussi appelé « morpion » (par analogie au jeu de morpion), est un jeu de réflexion se pratiquant à deux joueurs au tour par tour dont le but est de créer le premier un alignement. Le jeu se joue généralement avec papier et crayon.
+                <br> Le « jeu vidéo informatique » quant à lui  a fait ses premiers pas dans l’univers de la recherche, en 1952, à l’Université de Cambridge. « OXO » a été créé par un étudiant, Alexander S. Douglas, comme illustration pour sa thèse sur l’interaction homme-ordinateur. C’est le premier jeu graphique sur ordinateur que l’on connaisse. Il a été écrit pour tourner sur l’EDSAC. OXO est un jeu vidéo de Tic-tac-toe.
+                </p>
+            </div>
+        </section>
+
+        <!-- Rules -->
+        <section class="bg-left">
+            <div class="mw8 pv5 center cf">
+                <h2 id="rules" class="f2 f-subheadline-ns lh-title mb0 ttu tracked-mega bg-white ph4">Les regles</h2>
+                <div class="fl w-100 w-50-ns pa4 pa2-m measure lh-copy tr-ns bg-white">
+                    <p>Deux joueurs s'affrontent. Ils doivent remplir chacun à leur tour une case de la grille avec le symbole qui leur est attribué : O ou X. Le gagnant est celui qui arrive à aligner trois symboles identiques, horizontalement, verticalement ou en diagonale.
+                    En raison du nombre de combinaisons limité, l'analyse complète du jeu est facile à réaliser : si les deux joueurs jouent chacun de manière optimale, la partie doit toujours se terminer par un match nul.
+                    </p>
+                </div>
+                <div class="fl w-100 w-50-ns pl6-ns pa2 mtn6-ns">
+                        <img src="dist/images/rules.jpg" alt="tictactoe_image" class="border-box knocked-out--left" style="border: 1px solid gray;">
+                </div>
+            </div>
+        </section>
+
+        <!-- Liens -->
+        <section class="mw8 pv5 center cf">
+            <h2 id="links" class="f2 f-subheadline-ns lh-title mb0 ttu tc tracked-mega bg-white">Liens</h2>
+            <div class="fl w-100 w-50-ns pr5-ns mtn6-ns">
+                <img src="dist/images/links.jpg" alt="tictactoe_image" class="fl border-box knocked-out">
+            </div>
+            <div class="fl w-100 w-40-ns ph4 measure lh-copy bg-white">
+                <ul>
+                    <li class="pv3">Google laisse d’ailleurs à disposition une version du jeu contre une IA <a href="https://www.google.fr/search?q=tictactoe&rlz=1C1CHBF_frFR773FR773&oq=tictactoe&aqs=chrome..69i57j0l5.3086j0j4&sourceid=chrome&ie=UTF-8 ">Ici</a>.</li>
+                    <li class="pv3">Le projet github d’un internaute <a href="https://github.com/neverstopbuilding/blog/blob/master/src/_posts/2013-12-13-minimax.md">Ici</a>.</li>
+                    <li class="pv3">Et sa version contre une IA absolument imbatable ! <a href="http://perfecttictactoe.herokuapp.com/ ">Ici</a></li>
+                    <li class="pv3">Une version Android <a href="https://play.google.com/store/apps/details?id=com.byril.tictactoe">Ici</a>.</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <div>
+        <section class="w-100 tc pa3 pv5 ph4-ns bg-right">
+            <button class="f5 ttu grow"><a href="game.html">Jouer au tic-tac-toe</a></button>
+        </section>
+    </div>
+    <footer class="w-100 tc pa3 pv5 ph4-ns bg-right">
+        <p>Réalisé par Baptiste Crouzet dans le cadre de PPE de BTS SIO 2ème année</p>
+        <a href="https//baptistecrouzet.fr" id="site">www.baptistecrouzet.fr</a>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="dist/js/all.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+@font-face {
+	font-family: 'abyssopelagic';
+	src: url('../../fonts/abyssopelagic.eot');
+	src: url('../../fonts/abyssopelagic.eot') format('embedded-opentype'),
+		url('../../fonts/abyssopelagic.woff2') format('woff2'), url('../../fonts/abyssopelagic.woff') format('woff'),
+		url('../../fonts/abyssopelagic.ttf') format('truetype'),
+		url('../../fonts/abyssopelagic.svg#abyssopelagic') format('svg');
+}
+
+.timeline:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	left: calc(50% - 1px);
+	height: 100%;
+	border-left: 2px solid #3810d8;
+}
+
+.knocked-out {
+	box-shadow: 20px 20px 122px rgba(102, 233, 221, 0.43);
+	transform: rotate3d(1, 1, 1, 7deg);
+	border: none !important;
+}
+
+.knocked-out--left {
+	box-shadow: -20px 20px 81px rgba(233, 102, 205, 0.6588235294117647);
+	transform: rotate3d(1, 1, 1, -7deg);
+	-webkit-transform: rotate3d(1, 1, 1, -7deg);
+	-moz-transform: rotate3d(1, 1, 1, -7deg);
+	-ms-transform: rotate3d(1, 1, 1, -7deg);
+	-o-transform: rotate3d(1, 1, 1, -7deg);
+}
+
+button {
+	background-color: #1b8a18;
+	height: 50px;
+	width: 264px;
+	border: none;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+button a {
+	color: white;
+	font-size: 19px;
+	text-decoration: none;
+}
+
+footer {
+	box-shadow: inset 0px 20px 20px 0px #00000017;
+	background-color: rgba(241, 241, 241, 0.96);
+}
+
+#origine {
+	color: #b90000;
+}
+
+#rules {
+	color: #00b8b9;
+}
+
+#links {
+	color: #b90000;
+}
+
+h2 {
+	font-family: 'abyssopelagic';
+}
+
+.mytab {
+	display: block;
+	width: 440px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer {
+	display: block;
+	min-width: 440px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	text-decoration: none;
+	color: #006fd0;
+	font-weight: bold;
+}

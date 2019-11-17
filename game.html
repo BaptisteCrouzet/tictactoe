@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+        <link rel="stylesheet" href="dist/css/style.css">
+        <link rel="stylesheet" href="dist/css/style-game.css">
+        <title>Tic-tac-toe</title>
+    </head>
+
+    <body class="sans-serif w-100 tc pa3 h-100 bg-black">
+        <!-- Title -->
+        <section>
+            <h2 class="f1 lh-title mb0 ttu tc tracked-mega">A vous de jouer !</h2>
+        </section>
+
+        <!--Table-->
+        <section>
+            <div class="case" style="display: none"></div>
+            <div class="mytab mw-6 mh-7">
+                <div class="myline cf">
+                    <div class="case bg-white h4 w4 ma2 fl"></div>
+                    <div class="case bg-white h4 w4 ma2 fl"></div>
+                    <div class="case bg-white h4 w4 ma2 fl"></div>
+                </div>
+                <div class="myline cf">
+                    <div class="case bg-white h4 w4 ma2 fl"></div>
+                    <div class="case bg-white h4 w4 ma2 fl"></div>
+                    <div class="case bg-white h4 w4 ma2 fl"></div>
+                </div>
+                <div class="myline cf">
+                    <div class="case bg-white h4 w4 ma2 fl"></div>
+                    <div class="case bg-white h4 w4 ma2 fl"></div>
+                    <div class="case bg-white h4 w4 ma2 fl"></div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <p>Le joueur X commence.</p>
+        </section>
+        <section>
+            <p id="result"></p>
+        </section>
+
+        <button id="restart">Recommencer</button>
+
+        <footer class="w-100 tc pa3 pv5 ph4-ns bg-right">
+            <a href="index.html">Retourner à l'accueil</a>
+            <p>Réalisé par Baptiste Crouzet dans le cadre de PPE de BTS SIO 2ème année</p>
+            <a href="https//baptistecrouzet.fr" id="site">baptistecrouzet.fr</a>
+        </footer>
+        <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="dist/js/all.min.js"></script>
+    </body>
+
+</html>
