@@ -1,22 +1,22 @@
 footer {
-	position: absolute;
-	left: 0;
-	bottom: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 h2 {
-	font-family: 'abyssopelagic';
-	color: #00b8b9;
+    font-family: 'abyssopelagic';
+    color: #00b8b9;
 }
 
 section:nth-child(3) p,
 #result {
-	color: white;
+    color: white;
 }
 
 .case {
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: transparent;
 }
