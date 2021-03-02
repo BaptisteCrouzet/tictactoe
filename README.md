@@ -1,6 +1,6 @@
-# School project Tic-Tac-Toe (2016)
+# School project Tic-Tac-Toe (2017)
 
-This project was made in 2016 during my studies in BTS SIO.
+This project was made in 2017 during my studies in BTS SIO.
 The code, the quality and the relevance of this project should be placed in their context. Today I can produce a better code with better technologies.
 
 These technologies were keeped for historical reasons.
